@@ -16,7 +16,7 @@ export interface HeadProps {
 const SeoHead = ({
 	title,
 	description,
-	author = 'Jacob Herper',
+	author = 'Arnaud Wanet',
 	keywords,
 	image = 'https://res.cloudinary.com/jacobherper/image/upload/v1641565970/website-dark-light.png',
 	meta,

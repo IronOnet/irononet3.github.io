@@ -31,7 +31,7 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 			/>
 			<Container>
 				<h1 className="headline text-3xl md:text-5xl lg:text-6xl mt-8">
-					Hey, I&apos;m Jacob Herper
+					Hey, I&apos;m Arnaud Wanet
 				</h1>
 				<h2 className="font-bold text-xl md:text-2xl mt-2">
 					Senior Software Engineer from the UK
@@ -43,20 +43,17 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 					experience in serverless technologies.
 				</p>
 				<p className="my-4">
-					I am 31 years old and have been a web developer for as long as I can
-					think. The technologies I work with are JavaScript, HTML and CSS with
-					a focus on the frameworks React.js, Gatsby, Next.js, Node and Express.
-					I use code not only to do my day-to-day job, but also to solve
-					everyday problems I come across.
+					I&po;m a passionate software engineer who build scalable and secure
+					backend systems, blockchain applications. I command may programming
+					languages my primary ones being python, go, solidity and javascript. I
+					can also build frontend application when the need requires it but i
+					focus mainly on backend systems.
 				</p>
 				<p>
-					When I am not writing code I love to spend time with my wife and 3
-					year old daughter at home in London or travelling around the world. We
-					are quite a multi-cultural family with me having grown up in Germany
-					🇩🇪 and my wife being from Mexico 🇲🇽, which is why we raise our
-					daughter trilingual. I myself speak five languages (some better than
-					others). Furthermore I enjoy cooking fresh food when I come home after
-					a long day at the office.
+					I&apo;m 30 years old and I&apo;ve been writing code since 2014. the
+					types of system I usualy build range from REST APIs, GraphQL APIs,
+					blockhains and smart contracts and decentralized apps. I can go from
+					architecting a system, planing, and deliver it to end users.
 				</p>
 				<h2 className="headline mt-12 mb-4 text-4xl">Podcasts I enjoy</h2>
 
@@ -68,8 +65,9 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 
 				<h2 className="headline mt-12 mb-4 text-4xl">Education</h2>
 				<p className="mb-6">
-					I am mostly self-taught, but here are some of the most relevant
-					certifications I have achieved:
+					Although I have two degrees one in Computer Engineering and the other
+					in Law i have learned much of my craft through practice, self study
+					and the many experiences of past project.
 				</p>
 
 				<Education education={education} />

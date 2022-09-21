@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
@@ -15,50 +16,62 @@ import LogoVercel from 'Public/assets/tools/vercel.svg';
 
 const IndexPage = () => {
 	const talkAbout = [
-		'React',
-		'JavaScript',
-		'TypeScript',
-		'GraphQL',
-		'Redux',
-		'Jamstack',
-		'Next.js',
-		'RESTful APIs',
-		'HTML',
-		'CSS',
-		'Gatsby',
-		'Svelte',
+		'Backend web development', 
+		'Blockchain development', 
+		'Machine learning', 
+		'Smart contracts', 
+		'Web3',
+		'Python', 
+		'Golang', 
+		'APIs', 
+		'Solidity',
+		'Javascript',  
+		'Typescript', 
+		'GraphQL', 
+		'React.js', 
+		'Next.js', 
+		'Django', 
+		'Django-Restframework', 
+		'Flask',
+		'Brownie', 
+		'Web3.py'
 	];
 
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Senior Software Engineer and Consultant – Jacob Herper"
-				description="A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting."
+				title="Freelance software engineer (backend) - Arnaud Wanet"
+				description="A Polyglot software engineer with a passion for diesigning and building scalable and secure software. I have more than 5 years of experience
+				designing and building various software."
 				keywords={[
 					'Software Engineer',
-					'Jacob Herper',
+					'Arnaud Wanet', 
+					'Backend development consulting', 
+					'Freelance software engineer', 
+					'Back-end', 
+					'React', 
+					'Golang', 
+					'Python', 
 					'Software Consulting',
 					'Front-End',
-					'Full-Stack',
 					'React',
 					'TypeScript',
 					'JavaScript',
 					'GraphQL',
-					'CSS',
-					'Tailwind',
+				
 				]}
 			/>
 			<section id="home" className="h-full">
 				<Container>
 					<h1 className="headline mt-20 text-3xl md:text-5xl lg:text-6xl">
-						Hey, I&apos;m Jacob Herper 👋
+						Hey, I&apos;m Arnaud Wanet 👋👋
 					</h1>
 					<p className="my-8 text-lg">
-						I am a passionate Software Engineer, specialised in front-end
-						development using React and TypeScript. As an advocate for web
-						performance and accessibility and an evangelist for the Jamstack, I
-						create amazing web applications to make the internet a better place.
-						You can talk to me about{' '}
+					I&apos;am a fullstack software enginneer, with a deep passion for designing and building 
+              		software systems, I have a strong command for multiple programming languages namely 
+              		Python, Javascript/Typescript, Go and Solidity. I build amazing web, machine learning and blockchain applications
+              		that meet my customer&apos;s demand. feel free to reach out!
+              		I&apos;m open to discuss about the following topics with you {' '} 
 						<Typed
 							loop
 							typeSpeed={80}
@@ -73,10 +86,23 @@ const IndexPage = () => {
 						.
 					</p>
 					<p>
-						P.S. this website is open-source and available on{' '}
+						You can checkout my profile on{' '}
 						<a
 							href="https://github.com/jakeherp/portfolio"
-							title="Link to Github repository"
+							title="Link to LinkedLin profile"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="underlined font-bold relative border-b-2 border-grey-300 dark:border-grey-700 hover:border-b-0"
+						>
+							LinkedIn
+						</a>
+						.
+					</p>
+					<p>
+						And my Github repositories on{' '}
+						<a
+							href="https://github.com/irononet"
+							title="Link to Github Profile"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="underlined font-bold relative border-b-2 border-grey-300 dark:border-grey-700 hover:border-b-0"
@@ -113,15 +139,18 @@ const IndexPage = () => {
 					</h2>
 					<p className="font-bold text-xl md:text-2xl mt-2">
 						as a software architect with a passion for creating applications and
-						websites that people love.
+						websites that are secure, scalable that meet my client&apos;s requirments
 					</p>
 
 					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
-						Software Consultancy
+						Backend Web Development 
 					</h3>
 					<p className="text-xl mt-4 md:text-xl lg:text-2xl">
-						I find the right tech stack for your project, scale your team and
-						work with you every step of the way.
+						I buid secure and scalable web backends, that scale and are secure 
+						in multiple languages. i can also help you maintain legacy code and 
+						do code audits. I&apos;m competent in building and designing APIs that comes in many shapes 
+						and from from monoliths to microservices and from REST based to Graphql APIs 
+						i can cover it all.  
 					</p>
 					<p className="mt-4 mb-4 text-lg leading-7">
 						I love working with startups and established businesses to find the
@@ -166,23 +195,22 @@ const IndexPage = () => {
 					</p>
 
 					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
-						Website & App Development
+						Blockchain Development
 					</h3>
 					<p className="text-xl mt-4 md:text-xl lg:text-2xl">
-						I build web applications and websites that are well-designed,
-						accessible, and performant.
+						I build decentralized applications blockhain apps that are 
+						hackproof
 					</p>
 					<p className="mt-4 mb-4 text-lg leading-7">
-						I&apos;ve been building websites and apps for over 15 years now,
-						working with clients from startups to large enterprise businesses. I
-						like to focus on accessibility, performance, and clean code.
+						From DAOs to wallets to fully fledged tokens as well as blockchain-networks 
+						i can navigate the entire blockchain eco-system seamlessly. I&apos;m especially 
+						passionate about this sector for it represents the future of unrestricted finance 
+						and provides great possibility for the advancment  of the unbanked accross the globe. 
 					</p>
 					<p className="mt-4 mb-4 text-lg leading-7">
-						As a web and mobile development consultant, I help my clients create
-						the best possible digital products for their businesses. I
-						don&apos;t just develop websites and apps, I make them beautiful,
-						fast and accessible to people with disabilities. My goal is to work
-						with you to help you reach your full potential.
+						As a Blockchain and web3 developer , I help my clients create
+						the best possible web3 applications for their businesses. Your customers 
+						funds are not only secured but the interactions is also seamless
 					</p>
 
 					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
@@ -215,25 +243,19 @@ const IndexPage = () => {
 					</p>
 
 					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
-						E-Commerce
+						Machine Learning Engineering 
 					</h3>
 					<p className="text-xl mt-4 md:text-xl lg:text-2xl">
-						I know how to help you sell more, with less effort.
+						I can help you build systems that learn from data. 
 					</p>
 					<p className="mt-4 mb-4 text-lg leading-7">
-						E-commerce development is my trade. I have years of experience
-						working across different industries in B2B and B2C e-commerce
-						development. Whether you&apos;re looking to create an MVP or start a
-						new project, I can help you achieve financial goals through
-						performant microservice architecture and modern JavaScript
-						frontends.
+						With machine learning engineering i build and deploy various types 
+						of machine learning models that learn from the available data. 
 					</p>
 					<p className="mt-4 mb-4 text-lg leading-7">
-						I can help you design, develop and deploy modern frontend
-						applications built with a microservice architecture. With years of
-						experience working across different industries in B2B and B2C
-						e-commerce development, I can help you achieve financial goals
-						through performant frontends built in React, Redux and GraphQL.
+						I can help you design, develop and deploy modern machine learning 
+						systems, using various industry standard tools like Tensorflow, Keras 
+						Pytorch, Scikit-learn and Pyspark. 
 					</p>
 				</Container>
 			</section>

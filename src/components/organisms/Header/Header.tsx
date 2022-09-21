@@ -14,15 +14,11 @@ export const navItems = [
 		title: 'About',
 	},
 	{
-		href: '/uses',
-		title: 'Uses',
-	},
-	{
-		href: '/case-studies',
+		href: '#',
 		title: 'Case Studies',
 	},
 	{
-		href: '/blog',
+		href: '#',
 		title: 'Blog',
 	},
 ];

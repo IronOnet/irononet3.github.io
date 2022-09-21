@@ -4,15 +4,20 @@ import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
 import Typed from 'react-typed';
 
-import LogoCypress from 'Public/assets/tools/cypress.svg';
-import LogoFigma from 'Public/assets/tools/figma.svg';
-import LogoGraphql from 'Public/assets/tools/graphql.svg';
-import LogoHygraph from 'Public/assets/tools/hygraph.svg';
+
+//import LogoFigma from 'Public/assets/tools/figma.svg';
+//import LogoGraphql from 'Public/assets/tools/graphql.svg';
 import LogoNext from 'Public/assets/tools/nextjs.svg';
-import LogoPrismic from 'Public/assets/tools/prismic.svg';
-import LogoStorybook from 'Public/assets/tools/storybook.svg';
-import LogoSvelte from 'Public/assets/tools/svelte.svg';
-import LogoVercel from 'Public/assets/tools/vercel.svg';
+import LogoGolang from 'Public/assets/tools/golang.svg'; 
+import LogoDjango from 'Public/assets/tools/django.svg'; 
+import LogoTensorflow from 'Public/assets/tools/tensorflow.svg'; 
+import LogoDocker from 'Public/assets/tools/docker.svg'; 
+import LogoReact from 'Public/assets/tools/react.svg';
+import LogoPython from 'Public/assets/tools/python.svg'; 
+import LogoMYSQL from 'Public/assets/tools/mysql.svg'; 
+import LogoGit from 'Public/assets/tools/git.svg'
+//import LogoRedis from 'Public/assets/tools/redis.svg'; 
+import LogoSolidity from 'Public/assets/tools/solidity.svg';
 
 const IndexPage = () => {
 	const talkAbout = [
@@ -64,10 +69,10 @@ const IndexPage = () => {
 			<section id="home" className="h-full">
 				<Container>
 					<h1 className="headline mt-20 text-3xl md:text-5xl lg:text-6xl">
-						Hey, I&apos;m Arnaud Wanet 👋👋
+						Hey, I&apos;m Arnaud Wanet !!
 					</h1>
 					<p className="my-8 text-lg">
-					I&apos;am a fullstack software enginneer, with a deep passion for designing and building 
+					I&apos;am back-end software engineer, with a deep passion for designing and building 
               		software systems, I have a strong command for multiple programming languages namely 
               		Python, Javascript/Typescript, Go and Solidity. I build amazing web, machine learning and blockchain applications
               		that meet my customer&apos;s demand. feel free to reach out!
@@ -121,14 +126,14 @@ const IndexPage = () => {
 
 					<div className="flex flex-wrap items-center justify-center max-w-5xl mt-8 mx-auto gap-x-16 gap-y-8">
 						<LogoNext className="w-32" aria-label="Next.js" />
-						<LogoSvelte className="w-12" aria-label="SvelteKit" />
-						<LogoHygraph className="w-28 md:w-36" aria-label="Hygraph" />
-						<LogoPrismic className="w-32 md:w-40" aria-label="Prismic" />
-						<LogoStorybook className="w-32 md:w-40" aria-label="Storybook" />
-						<LogoGraphql className="w-28 md:w-36" aria-label="GraphQL" />
-						<LogoVercel className="w-32 md:w-36" aria-label="Vercel" />
-						<LogoFigma className="w-8" aria-label="Figma" />
-						<LogoCypress className="w-32 md:w-40" aria-label="Cypress" />
+						<LogoGolang className="w-32" aria-label="Golang" />
+						<LogoPython className="w-12 md:w-36" aria-label="Python" />
+						<LogoDjango className="w-12 md:w-60" aria-label="Django" />
+						<LogoSolidity className="w-12 md:w-40" aria-label="Solidity" />
+						<LogoDocker className="w-28 md:w-36" aria-label="Docker" />
+						<LogoGit className="w-32 md:w-36" aria-label="Git" />
+						<LogoReact className="w-32" aria-label="React.js" />
+						<LogoMYSQL className="w-32 md:w-40" aria-label="Mysql" />
 					</div>
 				</Container>
 			</section>

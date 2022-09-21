@@ -3,8 +3,11 @@
     - Django 
     - Django RestFramework 
     - Golang 
-    - GinGonic 
+    - Tensorflow 
     - Docker 
     - Kubernetes 
-    - React.js 
+    - NextJs 
     - Python
+    - VsCode 
+    - Solidity 
+    - MysQL

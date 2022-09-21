@@ -10,7 +10,7 @@ import { useRouter } from 'next/router';
 
 export const navItems = [
 	{
-		href: '/about',
+		href: '#',
 		title: 'About',
 	},
 	{

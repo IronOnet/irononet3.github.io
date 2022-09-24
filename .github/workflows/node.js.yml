@@ -16,11 +16,14 @@ jobs:
         with: 
           node-version: '16.13.0' 
 
+      - name: Setup Yarn 
+        uses: mskelton/setup-yarn@v1
+
       - name: Installing package dependencies 
-        run: npm install 
+        run: yarn install 
 
       - name: Build the App 
-        run: npm run build && np run export touch ./out/.nojekyll 
+        run: yarn run build && yarn run export touch ./out/.nojekyll 
 
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4.3.3 

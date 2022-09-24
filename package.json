@@ -16,6 +16,7 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
+		"export": "next export"
 		"start": "next start",
 		"lint": "next lint",
 		"component:create": "hygen component new",

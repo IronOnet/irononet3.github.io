@@ -3,20 +3,20 @@
 	"description": "A redesign of my portfolio website.",
 	"version": "3.7.0",
 	"author": {
-		"name": "Jacob Herper",
-		"email": "jacob@herper.io",
-		"url": "https://herper.io/"
+		"name": "Arnaud Wanet",
+		"email": "arnaudwanetwork9@gmail.com",
+		"url": "https://irononet.github.io"
 	},
 	"license": "MIT",
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jakeherp/portfolio"
+		"url": "https://github.com/irononet/irononet.github.io"
 	},
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"export": "next export"
+		"export": "next export",
 		"start": "next start",
 		"lint": "next lint",
 		"component:create": "hygen component new",

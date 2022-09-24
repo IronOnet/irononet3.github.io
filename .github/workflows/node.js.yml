@@ -20,11 +20,11 @@ jobs:
         run: npm install 
 
       - name: Build the App 
-        run: npm run build && np run export touch ./out/.nodejekyll 
+        run: npm run build && np run export touch ./out/.nojekyll 
 
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4.3.3 
         with: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-          BRANCH: public 
+          BRANCH: main 
           FOLDER: out

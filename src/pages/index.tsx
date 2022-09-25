@@ -8,16 +8,16 @@ import Typed from 'react-typed';
 //import LogoFigma from 'Public/assets/tools/figma.svg';
 //import LogoGraphql from 'Public/assets/tools/graphql.svg';
 import LogoNext from 'Public/assets/tools/nextjs.svg';
-import LogoGolang from 'Public/assets/tools/golang.svg'; 
 import LogoDjango from 'Public/assets/tools/django.svg'; 
-import LogoTensorflow from 'Public/assets/tools/tensorflow.svg'; 
-import LogoDocker from 'Public/assets/tools/docker.svg'; 
+import LogoDocker from 'Public/assets/tools/docker.svg';
+import LogoGit from 'Public/assets/tools/git.svg'
+import LogoGolang from 'Public/assets/tools/golang.svg'; 
+import LogoMYSQL from 'Public/assets/tools/mysql.svg'; 
 import LogoReact from 'Public/assets/tools/react.svg';
 import LogoPython from 'Public/assets/tools/python.svg'; 
-import LogoMYSQL from 'Public/assets/tools/mysql.svg'; 
-import LogoGit from 'Public/assets/tools/git.svg'
-//import LogoRedis from 'Public/assets/tools/redis.svg'; 
 import LogoSolidity from 'Public/assets/tools/solidity.svg';
+import LogoTensorflow from 'Public/assets/tools/tensorflow.svg'; 
+//import LogoRedis from 'Public/assets/tools/redis.svg'; 
 
 const IndexPage = () => {
 	const talkAbout = [
